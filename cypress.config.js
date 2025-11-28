@@ -16,7 +16,7 @@ module.exports = defineConfig({
     screenshotsFolder: "cypress/screenshots",
     videosFolder: "cypress/videos",
     trashAssetsBeforeRuns: true  ,    // delete old videos/screenshots
-    watchForFileChanges: true,
+    watchForFileChanges: false,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },

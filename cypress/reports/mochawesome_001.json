@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-11-28T09:19:21.602Z",
+    "end": "2025-11-28T09:19:55.842Z",
+    "duration": 34240,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fe560e6b-7a46-4b3f-82c6-0cb1b69470cb",
+      "title": "",
+      "fullFile": "cypress\\e2e\\mytest2.cy.js",
+      "file": "cypress\\e2e\\mytest2.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9d0d7f57-90e0-4508-988e-bac58e4872b3",
+          "title": "my login test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "webvisit",
+              "fullTitle": "my login test webvisit",
+              "timedOut": null,
+              "duration": 27145,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://sports.bet9ja.com\");\ncy.get('.btn-primary-m.btn-login').click();\ncy.get('#username').type(\"alaayo89\");\ncy.get('#password').type(\"choice123\");\ncy.get('.btn-primary-l.mt20').click();",
+              "err": {},
+              "uuid": "ab6ab426-9ef9-4e08-b68d-082bd697a116",
+              "parentUUID": "9d0d7f57-90e0-4508-988e-bac58e4872b3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ab6ab426-9ef9-4e08-b68d-082bd697a116"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 27145,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.3.2"
+    }
+  }
+}
