@@ -6,6 +6,7 @@ describe("my login test", ()=>{
 cy.get('#username').type("alaayo89");
 cy.get('#password').type("choice123");
 cy.get('.btn-primary-l.mt20').click()
+cy.get(".h-ml__logo-icon").should('be.visible');
 
     })
 })
